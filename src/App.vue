@@ -1,22 +1,24 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <DreamSwipe msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import DreamSwipe from './components/DreamSwipe.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    DreamSwipe
   }
 }
 </script>
 
 <style>
+body{
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
